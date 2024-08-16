@@ -1,15 +1,14 @@
 <?php
 
 namespace Tok3\WeightConversions;
-use App\Models\User;
+
 class Weight
 {
     protected float $kilograms;
 
     public static function kilograms(float $kilograms): self
     {
-        $test = array(1, 2, 3, 5);
-
+        $test = [1, 2, 3, 5];
 
         return new static($kilograms);
     }
